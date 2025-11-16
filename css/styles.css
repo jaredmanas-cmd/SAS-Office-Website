@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*
+    MAIN BACKGROUND AND SOME HOME WEBPAGE CODES
+*/
 *{
     font-family: 'Poppins';
 }
 body{
-    background-image: linear-gradient(to left, #c19ddf, #f1986f);
+    background-image: linear-gradient(to left, #c19ddf, #dfd28c);
 
 }
 .header{
@@ -35,13 +38,23 @@ nav ul li a:hover {
     width: 190px;
     margin: 20px 10px 10px 20px;
 }
+
+.hero_news{
+    background-image: url("../img/scbldg.png");
+    height: 500px;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .hero{
-    display: flex;
-    flex-direction: column; 
-    padding: 4px 2px;
-    flex-grow: 1;
-    margin-left: 55px;
-    margin-top: 80px;
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .hero h1{
     font-size: 50px;
@@ -53,17 +66,6 @@ nav ul li a:hover {
 .hero a{
     color:#ded7e4;
     text-decoration: none;
-}
-.hero img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 85%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    z-index: 1;
-    padding-top: 1000px;
 }
 .footer{
     display: flex;
@@ -77,3 +79,31 @@ nav ul li a:hover {
 .footer span{
     color:black;
 }
+/* END */
+
+
+/*
+    ABOUT WEBPAGE CODES
+*/
+
+/* END */
+
+
+/*
+    NEWS WEBPAGE CODES
+*/
+
+.lostnfound{
+    background: white;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 15px 30px;
+}
+
+/*
+    GALLERY WEBPAGE CODES
+*/
+
+/*
+    MEDIA QUERY CODES
+*/
