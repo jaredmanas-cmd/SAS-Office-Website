@@ -8,7 +8,9 @@
 }
 body{
     background-image: linear-gradient(to left, #c19ddf, #dfd28c);
-
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 .header{
     display: flex;
@@ -38,23 +40,13 @@ nav ul li a:hover {
     width: 190px;
     margin: 20px 10px 10px 20px;
 }
-
-.hero_news{
-    background-image: url("../img/scbldg.png");
-    height: 500px;
-    background-size: contain;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 .hero{
-    height: 400px;
-    background-size: cover;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    display: flex;
+    flex-direction: column; 
+    padding: 4px 2px;
+    flex-grow: 1;
+    margin-left: 55px;
+    margin-top: 80px;
 }
 .hero h1{
     font-size: 50px;
@@ -66,6 +58,19 @@ nav ul li a:hover {
 .hero a{
     color:#ded7e4;
     text-decoration: none;
+}
+.hero img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 85%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 1;
+    margin-top:100px;
+    width: 102%;
+    
 }
 .footer{
     display: flex;
@@ -85,24 +90,120 @@ nav ul li a:hover {
 /*
     ABOUT WEBPAGE CODES
 */
+.main-about{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 70%;
+    padding: 80px;
+    background-color: rgba(192, 168, 168, 0.5);
+    color: black;
+    line-height: 1.6;   
+    font-size: 18px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+.hero-about{
+    background-image: url('../img/scbldg.png');
+    display: flex;
+    flex-direction: column; 
+    padding: 4px 2px;
+    flex-grow: 1;
+    margin-left: 55px;
+    margin-top: 80px;
+}    
+.hero-about img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 85%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 1;
+    margin-top:100px;
+    width: 102%;
+    filter:blur(5px);
+}
 
 /* END */
 
 
 /*
-    NEWS WEBPAGE CODES
+    LOST AND FOUND WEBPAGE CODES
 */
 
-.lostnfound{
-    background: white;
-    border-radius: 10px;
-    margin: 50px;
-    padding: 15px 30px;
+.hero-lostnfound{
+    background-image: url('../img/scbldg.png');
+    display: flex;
+    flex-direction: column; 
+    padding: 4px 2px;
+    flex-grow: 1;
+    margin-left: 55px;
+    margin-top: 80px;
 }
+.hero-lostnfound img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 85%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 1;
+    margin-top:100px;
+    width: 102%;
+    filter:blur(5px);
+}
+.lostnfound{
+    
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 70%;
+    padding: 80px;
+    background-color: rgba(192, 168, 168, 0.5);
+    color: black;
+    line-height: 1.6;   
+    font-size: 18px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+.lostnfound img{
+    border-radius: 10px;
+}
+
+/* END */
+
 
 /*
     GALLERY WEBPAGE CODES
 */
+
+/* END */
+
+/* 
+    CONTACT US WEBPAGE
+*/
+
+.main-contact{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 70%;
+    padding: 80px;
+    background-color: rgba(192, 168, 168, 0.5);
+    color: black;
+    line-height: 1.6;   
+    font-size: 18px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+
 
 /*
     MEDIA QUERY CODES
